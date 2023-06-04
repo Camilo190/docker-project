@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  backend:
+    image: spring-app
+    container_name: spring-app
+    build:
+      context: ./springboot-app
+    ports:
+        - "9000:80"
+  frontend:
+    image: angular-app
+    container_name: angular-app
+    build:
+      context: ./angular-app
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
