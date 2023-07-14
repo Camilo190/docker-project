@@ -1,3 +1,6 @@
-[submodule "Blog"]
-	path = Blog
-	url = https://github.com/Camilo190/Blog
+[submodule "SpringbootApp"]
+	path = SpringbootApp
+	url = https://github.com/Camilo190/SpringbootApp.git
+[submodule "AngularApp"]
+	path = AngularApp
+	url = https://github.com/Camilo190/AngularApp.git
